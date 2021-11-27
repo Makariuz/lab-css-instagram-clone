@@ -4,7 +4,111 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.mainContainer {
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content:center;
+
+
+
+}
+.backgroundContainer{
+  position:absolute;
+  background-color: rgb(65,116,160); /* used my phone camera to see the "right colour" */
+  height: 40vh;
+  width: 100vw;
+}
+
+.containerLeft {
+  display:flex;
+  position:relative;
+  width: 50vw;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.containerRight {
+  
+  width: 50vw;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.instagramLogo{
+  position:relative;
+ 
+  display:flex;
+  align-items: center;
+
+}
+
+.frameContainer {
+  position:relative;
+  text-align: left;
+  color:black;
+ 
+
+}
+.homeIcon{
+  width:12.5vw;
+  
+  display:flex;
+  justify-content: flex-end;
+
+}
+
+article {
+  position: absolute;
+  width: 300px;
+  top: 10px;
+  left: 30px;
+  font-size: smaller;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+footer ul {
+ 
+  display:flex;
+  color: #06365f; 
+ 
+
+}
+footer li {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: ##1c5380;
+  font-weight:bolder;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* had a lot of issues with positioning with this
+I still need to practice flexbox a lot
+but I will keep practicing every until i get better
+I won't submit a late lab again(!)
+ */
+
